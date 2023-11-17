@@ -1,34 +1,22 @@
-  <header class="header" data-header>
-    <nav class="header__nav">
-      <a href="/">
-        <img class="header__logo" src="../../assets/img/common/logo.svg"
+  <header class="header m-2" data-header>
+    <nav class="header__nav flex flex-row justify-between">
+      <a routerLink="/">
+        <img class="header__logo p-2" src="../../assets/img/common/logo.svg"
           alt="logo written coffeeroasters with a green icon">
       </a>
-      
 
-      <button type="button" class="header__menu-ham" aria-expanded="false" aria-controls="header__list">
-        <span class="sr-only">menu</span>
-        <svg class="menu" width="16" height="15" aria-hidden="true">
-          <path
-            d="M14.5 12a1.5 1.5 0 010 3h-13a1.5 1.5 0 010-3h13zm0-6a1.5 1.5 0 010 3h-13a1.5 1.5 0 010-3h13zm0-6a1.5 1.5 0 010 3h-13a1.5 1.5 0 010-3h13z"
-            fill="#333D4B" fill-rule="evenodd" />
-        </svg>
-        <svg class="close" width="14" height="13" aria-hidden="true">
-          <path
-            d="M12.657.843a1.5 1.5 0 010 2.121L9.12 6.5l3.536 3.536a1.5 1.5 0 11-2.121 2.12L7 8.622l-3.536 3.536a1.5 1.5 0 11-2.12-2.121L4.877 6.5 1.343 2.964A1.5 1.5 0 113.464.844L7 4.377 10.536.843a1.5 1.5 0 012.12 0z"
-            fill="#333D4B" fill-rule="evenodd" />
-        </svg>
-      </button>
 
-      <ul class="header__list" id="header__list">
-        <li class="header__item">
-          <a class="header__link" href="/">Home</a>
+
+
+      <ul class="header__list flex justify-between " id="header__list">
+        <li class="header__item p-2">
+          <a class="header__link" routerLink="/">Home</a>
         </li>
-        <li class="header__item">
-          <a class="header__link" href="about.html">About US</a>
+        <li class="header__item p-2">
+          <a class="header__link " routerLink="/aboutus">About US</a>
         </li>
-        <li class="header__item">
-          <a class="header__link" href="plan.html">Create your plan</a>
+        <li class="header__item p-2">
+          <a class="header__link" routerLink="/createplan">Create your plan</a>
         </li>
       </ul>
     </nav>
