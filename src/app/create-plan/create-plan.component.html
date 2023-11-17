@@ -1,0 +1,322 @@
+  <app-navbar></app-navbar>
+  <main>
+    <section class="heroObserver plan-hero">
+      <div class="plan-hero__box">
+        <div class="plan-hero__content">
+          <h1 class="plan-hero__title">Create plan</h1>
+          <p class="plan-hero__desc">
+            Coffee the way you wanted it to be. id coffee delivered tomorrow,
+            or next week. id whatever brew method you use. id choice, id
+            convenience, id quality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section plan-works">
+      <div class="plan-works__box">
+        <div class="plan-works__details">
+          <div aria-hidden="true" class="circle-1"></div>
+          <div aria-hidden="true" class="circle-2"></div>
+          <div aria-hidden="true" class="circle-3"></div>
+        </div>
+
+        <ul class="plan-works__list">
+          <li class="plan-works__item">
+            <span class="plan-works__number">01</span>
+            <h3 class="plan-works__subtitle">Pick your coffee</h3>
+            <p class="plan-works__desc">
+              Select from our evolving range of artisan coffees. Our beans are
+              ethically sourced and we pay fair prices id them. There are new
+              coffees in all profiles every month id you to try out.
+            </p>
+          </li>
+          <li class="plan-works__item">
+            <span class="plan-works__number">02</span>
+            <h3 class="plan-works__subtitle">Choose the frequency</h3>
+            <p class="plan-works__desc">
+              Customize your order frequency, quantity, even your roast style
+              and grind type. Pause, skip or cancel your subscription with no
+              commitment through our online portal.
+            </p>
+          </li>
+          <li class="plan-works__item">
+            <span class="plan-works__number">03</span>
+            <h3 class="plan-works__subtitle">Receive and enjoy!</h3>
+            <p class="plan-works__desc">
+              We ship your package within 48 hours, freshly roasted. Sit back
+              and enjoy award-winning world-class coffees curated to provide a
+              distinct tasting experience.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section plan">
+      <h2 class="sr-only">titulo</h2>
+      <aside class="plan__options">
+        <ul class="plan__list">
+          <li class="plan__item">
+            <a href="#1" class="plan__item--content" data-list-aside="0">
+              <p class="plan__item--number plan__item--number--green">
+                01
+              </p>
+              <p class="plan__item--title">Preferences</p>
+            </a>
+          </li>
+          <li class="plan__item">
+            <a href="#2" class="plan__item--content" data-list-aside="1">
+              <p class="plan__item--number">02</p>
+              <p class="plan__item--title">Bean Type</p>
+            </a>
+          </li>
+          <li class="plan__item">
+            <a href="#3" class="plan__item--content" data-list-aside="2">
+              <p class="plan__item--number">03</p>
+              <p class="plan__item--title">Quantity</p>
+            </a>
+          </li>
+          <li class="plan__item">
+            <a href="#4" class="plan__item--content" data-list-aside="3">
+              <p class="plan__item--number">04</p>
+              <p class="plan__item--title">Grind Option</p>
+            </a>
+            <div data-disabled="blockGrind"></div>
+          </li>
+          <li class="plan__item">
+            <a href="#5" class="plan__item--content" data-list-aside="4">
+              <p class="plan__item--number">05</p>
+              <p class="plan__item--title">Deliveries</p>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <div>
+        <section class="plan__selection">
+          <details class="plan__preferences" data-open="0">
+            <summary class="plan__title" id="1" data-button="0">How do you
+              drink your
+              coffee?</summary>
+
+
+            <form data-options>
+              <fieldset class="plan__content">
+                <legend class="sr-only">options</legend>
+                <div data-option class="plan__reply">
+                  <label for="capsule">
+                    <span class="sr-only">value</span>
+
+                    <input type="radio" id="capsule" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="0">Capsule</h3>
+                  <p class="plan__reply--desc">Compatible with Nespresso systems and similar brewers</p>
+                </div>
+
+                <div data-option class="plan__reply">
+                  <label for="filter">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="filter" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="0">Filter</h3>
+                  <p class="plan__reply--desc">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                </div>
+
+                <div data-option class="plan__reply">
+                  <label for="espresso">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="espresso" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="0">Espresso</h3>
+                  <p class="plan__reply--desc">Dense and finely ground beans for an intense, flavorful experience</p>
+                </div>
+              </fieldset>
+            </form>
+          </details>
+          <details class="plan__preferences" data-open="1">
+            <summary class="plan__title" id="2" data-button="1">What type of coffee?</summary>
+
+            <form data-options>
+              <fieldset class="plan__content">
+                <legend class="sr-only">options</legend>
+                <div data-option class="plan__reply">
+                  <label for="single">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="single" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="1">Single Origin</h3>
+                  <p class="plan__reply--desc">Distinct, high quality coffee from a specific family-owned farm</p>
+                </div>
+
+                <div data-option class="plan__reply">
+                  <label for="decat">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="decat" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="1">Decaf</h3>
+                  <p class="plan__reply--desc">Just like regular coffee, except the caffeine has been removed</p>
+                </div>
+
+
+                <div data-option class="plan__reply">
+                  <label for="blended">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="blended" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="1">Blended</h3>
+                  <p class="plan__reply--desc">Combination of two or three dark roasted beans of organic coffees</p>
+                </div>
+              </fieldset>
+            </form>
+          </details>
+          <details class="plan__preferences" data-open="2">
+            <summary class="plan__title" id="3" data-button="2">How much would you like?</summary>
+
+            <form data-options>
+              <fieldset class="plan__content">
+
+                <legend class="sr-only">options</legend>
+                <div data-option class="plan__reply">
+                  <label for="250g">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="250g" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="2">250g</h3>
+                  <p class="plan__reply--desc">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                </div>
+
+                <div data-option class="plan__reply">
+                  <label for="500g">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="500g" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="2">500g</h3>
+                  <p class="plan__reply--desc">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                </div>
+
+                <div data-option class="plan__reply">
+                  <label for="1000g">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="1000g" name="option">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="2">1000g</h3>
+                  <p class="plan__reply--desc">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                </div>
+
+              </fieldset>
+            </form>
+          </details>
+          <details class="plan__preferences" data-open="3">
+
+            <summary class="plan__title" id="4" data-button="3">Want us to grind them?
+
+              <span data-disabled="block"></span>
+            </summary>
+
+            <form data-options>
+              <fieldset class="plan__content">
+
+
+                <legend class="sr-only">options</legend>
+                <div data-option class="plan__reply">
+                  <label for="wholebean">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="wholebean" name="option" value="1">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="3">Wholebean</h3>
+                  <p class="plan__reply--desc">Best choice if you cherish the full sensory experience</p>
+                </div>
+
+                <div data-option class="plan__reply">
+                  <label for="filter2">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="filter2" name="option" value="1">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="3">Filter</h3>
+                  <p class="plan__reply--desc">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                </div>
+
+                <div data-option class="plan__reply">
+                  <label for="cafetiere">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="cafetiere" name="option" value="1">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="3">Cafetiére</h3>
+                  <p class="plan__reply--desc">Course ground beans specially suited for french press coffee</p>
+                </div>
+
+              </fieldset>
+            </form>
+
+          </details>
+          <details class="plan__preferences" data-open="4">
+
+            <summary class="plan__title" id="5" data-button="4">How often should we deliver?</summary>
+
+            <form data-options>
+              <fieldset class="plan__content">
+
+
+                <legend class="sr-only">options</legend>
+                <div data-option class="plan__reply">
+                  <label for="week">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="week" name="option" value="1">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="4">Every week</h3>
+                  <p class="plan__reply--desc"><span data-price="0">$7.20</span> per shipment. Includes free first-class
+                    shipping.
+                  </p>
+                </div>
+
+                <div data-option class="plan__reply" id="padding--left">
+                  <label for="weeks">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="weeks" name="option" value="1">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="4">Every 2 weeks</h3>
+                  <p class="plan__reply--desc">
+                    <span data-price="1">$9.60</span> per shipment. Includes free priority shipping.
+
+                  </p>
+                </div>
+
+
+                <div data-option class="plan__reply">
+                  <label for="month">
+                    <span class="sr-only">value</span>
+                    <input type="radio" id="month" name="option" value="1">
+                  </label>
+                  <h3 class="plan__reply--title" data-title="4">Every month</h3>
+                  <p class="plan__reply--desc">
+                    <span data-price="2">$12.00</span> per shipment. Includes free priority shipping.
+                  </p>
+                </div>
+              </fieldset>
+            </form>
+          </details>
+          <div class="plan__order-summary">
+            <div class="plan__order-summary--box">
+              <h3 class="plan__order-summary--title">Order Summary</h3>
+              <p class="plan__order-summary--resume">
+                “I drink my coffee using <span data-title="0">_____</span>, with
+                a <span data-title="1">_____</span> type of bean. <span data-title="2">_____</span> <span id="complet"
+                  data-modal="modal--complet">ground
+                  ala</span> <span data-title="3" id="grind">_____</span>, sent to me
+                <span data-title="4">_____</span>.”
+              </p>
+            </div>
+          </div>
+          <div class="btn-box">
+            <a href="plan.html" class="btn btn--padding" id="btn-disabled">Create your plan
+            </a>
+
+            <div data-disabled="blockGrind"></div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <app-footer></app-footer>
