@@ -1,23 +1,18 @@
-  <header class="header m-2" data-header>
-    <nav class="header__nav flex flex-row justify-between">
-      <a routerLink="/">
-        <img class="header__logo p-2" src="../../assets/img/common/logo.svg"
-          alt="logo written coffeeroasters with a green icon">
-      </a>
+<header>
+  <nav>
+    <div class="logo-dropdown flex">
+      <a routerLink="/"
+        ><img
+          class="logo-img"
+          src="../../assets/img/common/logo.svg"
+          alt="Company Logo"
+      /></a>
+    </div>
 
-
-
-
-      <ul class="header__list flex justify-between " id="header__list">
-        <li class="header__item p-2">
-          <a class="header__link" routerLink="/">Home</a>
-        </li>
-        <li class="header__item p-2">
-          <a class="header__link " routerLink="/aboutus">About US</a>
-        </li>
-        <li class="header__item p-2">
-          <a class="header__link" routerLink="/createplan">Create your plan</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <ul class="nav-ul">
+      <li><a class="nav-a" routerLink="/">Home</a></li>
+      <li><a class="nav-a" routerLink="/aboutus">About us</a></li>
+      <li><a class="nav-a" routerLink="/createplan">Create your plan</a></li>
+    </ul>
+  </nav>
+</header>
